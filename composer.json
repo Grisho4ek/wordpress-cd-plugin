@@ -1,0 +1,11 @@
+{
+  "name": "grisho4ek/build-front-end",
+  "config": {
+    "platform": {
+      "php": "5.6.4"
+    }
+  },
+  "require": {
+    "vlucas/phpdotenv": "^4.1"
+  }
+}
