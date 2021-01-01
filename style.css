@@ -43,12 +43,14 @@
   border-radius: 50%;
 }
 
+.BuildFrontEnd__status--canceled,
 .BuildFrontEnd__status--failure {
   position: relative;
   height: 14px;
   width: 14px;
 }
 
+.BuildFrontEnd__status--canceled,
 .BuildFrontEnd__status--failure:after {
   line-height: 1;
   content: 'X';

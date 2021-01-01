@@ -75,7 +75,7 @@ window.addEventListener('load', () => {
             timeStyle: 'short'
           });
           const forattedDate = o.format(createdAt);
-          dateElement.textContent = `Last build: ${forattedDate}`;
+          dateElement.textContent = `Last build: ${forattedDate} (conclusion: ${conclusion})`;
         }
       })
       .catch(() => {
